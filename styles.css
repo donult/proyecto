@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('tecnologico.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main-page {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.header {
+  text-align: center;
+  background-color: #8BC34A; /* Verde principal */
+  padding: 20px;
+  position: relative;
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+}
+
+.header .logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 150px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button {
+  text-align: center;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.button img {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.button span {
+  display: block;
+  margin-top: 5px;
+  background-color: #4CAF50; /* Verde claro */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.content {
+  text-align: center;
+  background-color: #A5D6A7; /* Fondo más claro */
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.creadora-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  background-color: #8BC34A; /* Verde principal */
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.creadora-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: white;
+  object-fit: cover;
+}
+
+.video-player {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.back-button {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50; /* Verde claro */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #388E3C; /* Verde oscuro */
+}
+
+.text-left {
+  text-align: left; /* Alinear texto a la izquierda */
+  margin: 15px;
+  line-height: 1.6; /* Espaciado entre líneas */
+  font-size: 16px; /* Tamaño del texto */
+  color: #333; /* Color del texto */
+}
+
